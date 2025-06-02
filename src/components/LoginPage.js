@@ -1,4 +1,5 @@
 import '../styles/auth.css';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   return (
@@ -33,9 +34,9 @@ const LoginPage = () => {
             <img src="https://img.icons8.com/?size=100&id=XkaSssewbJSt&format=png&color=000000" alt="Password Icon" className="input-icon" />
             <input type="password" placeholder="Password" className="input-field" />
           </div>
-          <button type="button" className="signup-button">
+          <Link to="/Account" className="signup-button">
             Sign In
-          </button>
+          </Link>
         </div>
       </div>
     </div>
